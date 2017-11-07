@@ -1,0 +1,7 @@
+%h1= @job.title
+%p= @job.description
+%p= @job.company
+
+= link_to "На главную", root_path
+= link_to "Изменить", edit_job_path(@job)
+= link_to "Удалить", job_path(@job), method: :delete, data: {confirm: "Вы уверены?"}
