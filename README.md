@@ -1,24 +1,14 @@
-# README
+# RubyJobs
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+«RubyJobs» — приложение для поиска работы написаное на ruby on rails.
 
-Things you may want to cover:
+## Установка:
 
-* Ruby version
+* Ruby version 2.4.2
 
-* System dependencies
+* Rails version 5.1.4
 
-* Configuration
+* Database PostgreSQL 9.5
 
-* Database creation
+* Для разворачивания своей копии клонируйте git репозиторий, сделайте bundle exec rake db:migrate.
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
